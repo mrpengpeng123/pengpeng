@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Project</title>
+    <link rel="stylesheet" href="gameweb.css">
+</head>
+<body>
+    <h1>Game title</h1>
+    <div id="Sidenav">
+        <ul>
+            <li><a href="gameweb.html">Homepage>></a></li>
+            <li><a href="intro">Game introduction</a></li>
+            <li><a href="map">Explore the city!</a></li>
+        <!--game content-->
+        </ul>
+    </div>
+  <section id="main">
+    <div class="textbox">
+      ejrnvernvere
+    </div>
+    <br>
+    <div class="changeworld">
+      <button onclick="changeImage()"><img src="lib.PNG" id="myImg" alt="state library real world"></button>
+        <script>
+          function changeImage(){
+          document.getElementById("myImg").src="visionlib.PNG";
+          }
+            if(document.getElementById("myImg").src=="visionlib.PNG"
+        ){
+          document.getElementById("myImg").src="lib.PNG";
+          }
+          </script>
+    </div>
+
+
+    <div id="Video">
+      <div class="introvideonbutton">
+          <button id="videoButton" onclick="pauseVideo()">
+          <video autoplay loop id="introVideo" width="1000" height="570">
+              <source src=""> type="video/mp4"><!--insert video file-->
+          </video>
+          </button>
+        <script>
+          let video = document.getElementById("introVideo");
+          let btn = document.getElementById("videoButton");
+          function pauseVideo() {
+            if (video.paused) {
+              video.play();
+            } else {
+              video.pause();
+            }
+          }
+          </script>
+      </div>
+      <img src="tram.png" alt="melbourne tram" width="30%">
+      <img src="arcade.png" alt="arcade"width="30%">
+      <img src="char1.png" alt="character 1" width="40%">
+  </div>
+  <div id="introduction">
+      <p>Capybara is an erjvbuireb game cyberpunk themed where the main chaieri plot</p>
+  </div>
+
+  </section>
+  <footer>
+    <p>Group members</p>
+    <ul>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+  </footer>
+    
+</body>
+</html>

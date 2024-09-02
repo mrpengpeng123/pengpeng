@@ -1,0 +1,59 @@
+body {
+    background-color:#010626;
+    color: aquamarine;
+}
+h1 {
+    color: aquamarine;
+    font-size: 80px;
+}
+#main {
+    margin-left: 200px;
+    padding: 20px;
+}
+#Sidenav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    width: 150px;
+    background-color:#1d0e42d2;
+    position: fixed;
+    height: 100%;
+}
+
+#Sidenav li a {
+    display: flex;
+    flex-direction: column;
+    color: aquamarine;
+    padding: 20px;
+    text-decoration: none;
+
+}
+#Sidenav li a:hover {
+    background-color: #9223FF;
+    color: rgb(166, 255, 0);
+}
+#Sidenav a{
+    font-size: 20px;
+}
+.videoButton {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #C7FFED;
+    padding: 10px;
+    margin: -10px
+}
+footer .p .ul{
+    color: #000;
+}
+.textbox {
+    border-style: solid;
+    border-color: aquamarine;
+    background-color: #c7ffed67;
+}
+
+.changeworld img{
+    width: 500px;
+}
+.changeworld
